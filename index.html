@@ -10,7 +10,9 @@
   <meta property="og:image" content="og.jpg">
   <meta property="og:type" content="website">
   <meta name="theme-color" content="#720D2D">
-  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="icon" href="favicon-192.png" type="image/png" sizes="192x192">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <link rel="preload" href="caveat-brush-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="poppins-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" as="image" href="amanda-principal.webp">
@@ -133,28 +135,14 @@
       <p class="secao__intro">Setores bem diferentes, e em todos eu comecei pela mesma pergunta. O que essa marca quer que lembrem dela?</p>
     </div>
 
-    <div class="setores">
-      <article class="setor revelar">
-        <h3 class="setor__nome">Mercado financeiro e investimentos</h3>
-        <ul class="setor__marcas"><li>SmartSave</li><li>Valore</li></ul>
-      </article>
-      <article class="setor revelar">
-        <h3 class="setor__nome">Varejo e shopping</h3>
-        <ul class="setor__marcas"><li>ParkShopping Jacarepaguá</li></ul>
-      </article>
-      <article class="setor revelar">
-        <h3 class="setor__nome">Condomínios e serviços</h3>
-        <ul class="setor__marcas"><li>Viva o Condomínio</li></ul>
-      </article>
-      <article class="setor revelar">
-        <h3 class="setor__nome">Jurídico</h3>
-        <ul class="setor__marcas"><li>Roveda e Marcelino Advogados</li></ul>
-      </article>
-      <article class="setor setor--agencia revelar">
-        <h3 class="setor__nome">Agência</h3>
-        <ul class="setor__marcas"><li>AM4</li></ul>
-      </article>
-    </div>
+    <ul class="marcas">
+      <li class="marca revelar"><span class="marca__setor">Mercado financeiro</span><span class="marca__nome">SmartSave</span></li>
+      <li class="marca revelar"><span class="marca__setor">Mercado de capitais</span><span class="marca__nome">Valore</span></li>
+      <li class="marca revelar"><span class="marca__setor">Varejo e shopping</span><span class="marca__nome">ParkShopping Jacarepaguá</span></li>
+      <li class="marca revelar"><span class="marca__setor">Condomínios e serviços</span><span class="marca__nome">Viva o Condomínio</span></li>
+      <li class="marca revelar"><span class="marca__setor">Jurídico</span><span class="marca__nome">Roveda e Marcelino Advogados</span></li>
+      <li class="marca revelar"><span class="marca__setor">Agência de comunicação</span><span class="marca__nome">AM4</span></li>
+    </ul>
   </section>
 
   <!-- CONTATO -->
